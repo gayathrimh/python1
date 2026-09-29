@@ -1,0 +1,13 @@
+d={"name":"gayathri"}
+print(d.get("name"))
+print(d.get("age",0))
+d.update({"age":20})
+print(d.get("age",0))
+d.pop("name")
+print(d)
+d.popitem()
+print(d)
+d.clear()
+print(d)
+d2=d.copy()
+print(d2)
