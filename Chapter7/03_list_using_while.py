@@ -1,0 +1,5 @@
+l=[1,2,"harry",False,"good"]
+i=0
+while(i<len(l)):
+    print(l[i])
+    i+=1
